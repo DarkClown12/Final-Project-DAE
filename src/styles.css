@@ -1,0 +1,72 @@
+.App {
+  font-family: Copperplate;
+  text-align: center;
+  /* background-color: #1552b0; */
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+.firstpagenav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Button1 {
+  position: relative;
+  display: inline-block;
+  height: 44px;
+  padding: 4px 10px;
+  letter-spacing: 0.025em;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 2px;
+  border: none;
+  color: rgb(3, 3, 3);
+  background-color: #97ffd3;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  font-family: Copperplate;
+}
+.Button2 {
+  position: relative;
+  display: inline-block;
+  height: 65px;
+  padding: 4px 10px;
+  letter-spacing: 0.025em;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 2px;
+  border: none;
+  color: rgb(3, 3, 3);
+  background-color: #97ffd3;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  font-family: Copperplate;
+}
+
+input {
+  display: inline-block;
+  width: 300px;
+  height: 44px;
+  margin: 5px 10px 15px 0;
+  padding: 10px 11px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #869ab8;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #dde1ed;
+  border-radius: 2px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  outline: none;
+  box-sizing: border-box;
+  font-family: Copperplate;
+}
+.error {
+  border: 8px solid red;
+}
+.email {
+  padding-top: 60px;
+  margin-bottom: 0px;
+}

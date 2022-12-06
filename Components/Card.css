@@ -1,0 +1,159 @@
+.cards {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  max-width: 100%;
+  padding-left: 2%;
+  text-align: center;
+}
+
+.card--1 .card__img,
+.card--1 .card__img--hover {
+  background-image: url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/11/Cybersecurity.jpeg.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+.card--2 .card__img,
+.card--2 .card__img--hover {
+  background-image: url("https://i.pinimg.com/originals/cd/cf/1d/cdcf1d634cd7dcb1b9f5fc7ce321a9ed.gif");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+.card--3 .card__img,
+.card--3 .card__img--hover {
+  background-image: url("https://media.wired.com/photos/603d163e816a0ad2a36d5b4e/master/pass/Hero_Gif-01.gif");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+.card--4 .card__img,
+.card--4 .card__img--hover {
+  background-image: url("https://assets.new.siemens.com/siemens/assets/api/uuid:2ad4b0cae074b2bfaafc7d5ecea48d32d346015f/width:1125/quality:high/serverraum-v02.gif");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+.card--5 .card__img,
+.card--5 .card__img--hover {
+  background-image: url("https://media.tenor.com/0Dns0WCL0O4AAAAC/cyber.gif");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+.card--6 .card__img,
+.card--6 .card__img--hover {
+  background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/Top_Cybersecurity_Projects.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+
+card__like {
+  width: 18px;
+}
+.card__title {
+  text-decoration: none;
+  color: black;
+}
+
+.card__img {
+  visibility: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card__info-hover {
+  position: absolute;
+  padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+  transition: 0.2s all ease-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  top: 0;
+}
+.card {
+  /* display: flex;
+  justify-content: space-around; */
+
+  margin-right: 25px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+  width: 33.3%;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 0;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1, 1.1);
+}
+
+.card__info {
+  z-index: 2;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+}
+
+.card__category {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+}
+.card__title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+}
+
+.card__by {
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.card__author {
+  font-weight: 600;
+  text-decoration: none;
+  color: #ad7d52;
+}
+
+.card:hover .card__img--hover {
+  height: 100%;
+  opacity: 0.3;
+}
+
+.card:hover .card__info {
+  background-color: transparent;
+  position: relative;
+}
+
+.card:hover .card__info-hover {
+  opacity: 1;
+}
